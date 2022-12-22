@@ -1,0 +1,110 @@
+* {
+     box-sizing:border-box;
+    font-size:20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: rgb(217, 196, 255);
+    height: 200px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.image {
+	background-image: url(../);
+    height:200px;
+    width:50vw;
+    background-size: cover;
+    background-position: cover;
+}
+
+h1{background-color: rgb(148, 163, 162);
+
+}
+
+nav { 
+    display:grid;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+ul {     
+
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+ul li {
+    color: rgb(138, 43, 43);
+
+
+}
+
+ section { 
+    display: flex;
+    justify-content: flex-start;
+ }
+
+ h2 {
+width: 70px;;
+text-align: left;
+outline: 2px solid red;
+ }
+
+
+ section div {
+    width: 80%;
+    outline: 1px solid rgb(128, 0, 55);
+ }
+
+
+
+
+ section div.links {display: flex;
+padding-left: 20px;}
+
+
+ section div.links h3 {
+    width: 25%;
+    outline: 2px solid rgb(0, 255, 119);
+ }
+
+
+ section div.about-me {outline: 1px solid rgb(128, 0, 55);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
